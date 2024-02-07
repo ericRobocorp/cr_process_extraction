@@ -1,0 +1,878 @@
+[
+    {
+        "id": "6eba6ae9-cbe1-4aa9-906d-09c0387c6337",
+        "state": "completed",
+        "process": {
+            "id": "9e2533f9-904f-4500-ab46-f938c4fd9840",
+            "name": "Mark Video Stream"
+        },
+        "duration": 449,
+        "started_at": "2023-12-16T07: 13: 47.404Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Antti",
+                "last_name": "Karjalainen"
+            }
+        },
+        "created_at": "2023-12-16T07: 13: 47.251Z",
+        "ended_at": "2023-12-16T07: 21: 15.717Z"
+    },
+    {
+        "id": "f7f4f4ca-b180-4879-aec9-221d2d4410ac",
+        "state": "completed",
+        "process": {
+            "id": "9e2533f9-904f-4500-ab46-f938c4fd9840",
+            "name": "Mark Video Stream"
+        },
+        "duration": 294,
+        "started_at": "2023-12-05T12: 30: 40.419Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Antti",
+                "last_name": "Karjalainen"
+            }
+        },
+        "created_at": "2023-12-05T12: 30: 40.265Z",
+        "ended_at": "2023-12-05T12: 35: 33.433Z"
+    },
+    {
+        "id": "f1129800-de98-4161-b754-49306d3698bf",
+        "state": "completed",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 45,
+        "started_at": "2023-12-08T12: 29: 54.314Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-08T12: 29: 54.173Z",
+        "ended_at": "2023-12-08T12: 30: 38.460Z"
+    },
+    {
+        "id": "2c2d4091-fc1e-4e77-868d-104cbeb9ca10",
+        "state": "completed",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 101,
+        "started_at": "2023-12-06T22: 13: 23.461Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-06T22: 13: 23.319Z",
+        "ended_at": "2023-12-06T22: 15: 03.908Z"
+    },
+    {
+        "id": "7b7cedea-d21c-4993-b9d4-1d1863a2982a",
+        "state": "completed",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 464,
+        "started_at": "2023-12-06T21: 18: 01.683Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-06T21: 18: 01.503Z",
+        "ended_at": "2023-12-06T21: 25: 44.690Z"
+    },
+    {
+        "id": "acd88be0-344f-43d0-b9ef-6b92bb07a6cc",
+        "state": "completed",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 78,
+        "started_at": "2023-12-06T20: 55: 04.478Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-06T20: 55: 04.291Z",
+        "ended_at": "2023-12-06T20: 56: 21.970Z"
+    },
+    {
+        "id": "53f02a4f-f1be-4c75-90ee-aaeeaab25b13",
+        "state": "completed",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 1206,
+        "started_at": "2023-12-06T20: 34: 44.973Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-06T20: 34: 44.823Z",
+        "ended_at": "2023-12-06T20: 54: 50.255Z"
+    },
+    {
+        "id": "0a259edf-d560-4b4f-8277-ba35ff723fd4",
+        "state": "completed",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 125,
+        "started_at": "2023-12-06T20: 25: 53.957Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-06T20: 25: 53.819Z",
+        "ended_at": "2023-12-06T20: 27: 58.280Z"
+    },
+    {
+        "id": "3d1ea0f1-c2ae-449d-85b5-b3601c663edb",
+        "state": "unresolved",
+        "process": {
+            "id": "47c48f7c-8ba5-4176-8af1-078f54bbe6dc",
+            "name": "OTP Demo"
+        },
+        "duration": 0,
+        "started_at": "2023-12-06T21: 09: 52.686Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-06T21: 09: 52.525Z",
+        "ended_at": ""
+    },
+    {
+        "id": "d328561f-bf21-4a17-8ef8-3ce32248f563",
+        "state": "unresolved",
+        "process": {
+            "id": "b55a8c91-a4f9-479d-9117-0b3d85ac7b0a",
+            "name": "RPA Challenge Recorder"
+        },
+        "duration": 0,
+        "started_at": "2023-10-31T15: 06: 53.305Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-10-31T15: 06: 53.173Z",
+        "ended_at": ""
+    },
+    {
+        "id": "97621e6b-3bc9-4550-9931-a8594cf027d9",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 272,
+        "started_at": "2024-02-01T17: 21: 06.261Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2024-02-01T17: 21: 06.104Z",
+        "ended_at": "2024-02-01T17: 25: 37.376Z"
+    },
+    {
+        "id": "f597a1a5-b9aa-4ef9-9427-e7500be7a6f2",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 421,
+        "started_at": "2024-01-16T21: 32: 30.219Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T21: 32: 30.035Z",
+        "ended_at": "2024-01-16T21: 39: 31.178Z"
+    },
+    {
+        "id": "5f8990af-585e-4ec4-bd52-4b8ba68e8c78",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 699923,
+        "started_at": "2023-12-04T17: 03: 53.619Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2023-12-04T17: 03: 53.467Z",
+        "ended_at": "2023-12-12T19: 29: 16.010Z"
+    },
+    {
+        "id": "08431a34-6271-44b0-b222-7593289d7c02",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 286,
+        "started_at": "2023-12-05T19: 35: 47.677Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-05T19: 35: 47.524Z",
+        "ended_at": "2023-12-05T19: 40: 33.501Z"
+    },
+    {
+        "id": "a27ec749-eb1c-4d72-9d48-14dbabf64985",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 232,
+        "started_at": "2023-12-04T19: 04: 18.788Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-04T19: 04: 18.622Z",
+        "ended_at": "2023-12-04T19: 08: 10.087Z"
+    },
+    {
+        "id": "f81e7648-cc43-47aa-92f5-fc6de14640c4",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 216,
+        "started_at": "2023-12-04T15: 29: 23.700Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2023-12-04T15: 29: 23.518Z",
+        "ended_at": "2023-12-04T15: 32: 58.712Z"
+    },
+    {
+        "id": "5db7e1fc-3fad-4e2f-b981-a442a56481e5",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 374,
+        "started_at": "2023-11-30T12: 02: 28.491Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-30T12: 02: 28.332Z",
+        "ended_at": "2023-11-30T12: 08: 42.289Z"
+    },
+    {
+        "id": "63cdefbe-03fc-47e9-98a1-5485718a8b86",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 469,
+        "started_at": "2023-11-29T20: 30: 39.980Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-29T20: 30: 39.803Z",
+        "ended_at": "2023-11-29T20: 38: 28.212Z"
+    },
+    {
+        "id": "9d30ad39-8bbc-4f28-ad7a-7b526e3686c5",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 451,
+        "started_at": "2023-11-21T15: 33: 26.188Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-21T15: 33: 26.066Z",
+        "ended_at": "2023-11-21T15: 40: 56.378Z"
+    },
+    {
+        "id": "3c651c22-4497-42d4-a92e-70f1888e6fc5",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 246,
+        "started_at": "2023-11-08T10: 50: 30.001Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-08T10: 50: 29.878Z",
+        "ended_at": "2023-11-08T10: 54: 35.596Z"
+    },
+    {
+        "id": "89d936e3-9668-4ed7-95ae-b1772f6e746f",
+        "state": "completed",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 251,
+        "started_at": "2023-11-08T07: 32: 18.059Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2023-11-08T07: 32: 17.913Z",
+        "ended_at": "2023-11-08T07: 36: 28.809Z"
+    },
+    {
+        "id": "7eed07af-9261-43d2-afe3-33f6d729f133",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-29T12: 54: 37.865Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-29T12: 54: 37.726Z",
+        "ended_at": ""
+    },
+    {
+        "id": "5b19819f-2b47-4735-845f-6f77dbd15153",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-28T21: 40: 36.703Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-28T21: 40: 36.557Z",
+        "ended_at": ""
+    },
+    {
+        "id": "647c244e-5eb0-42fd-92ac-bc15f158a52c",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-28T21: 29: 02.171Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-28T21: 29: 01.970Z",
+        "ended_at": ""
+    },
+    {
+        "id": "2ad1ff86-3b9d-487d-916d-c1d7d1c108a2",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T22: 01: 35.878Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T22: 01: 35.744Z",
+        "ended_at": ""
+    },
+    {
+        "id": "d79a6ac9-f14f-416e-9bf7-fa7038b965bf",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T21: 45: 46.458Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T21: 45: 46.295Z",
+        "ended_at": ""
+    },
+    {
+        "id": "5b8830f5-0a03-442b-9f72-da944be6e09a",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T21: 45: 45.050Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T21: 45: 44.882Z",
+        "ended_at": ""
+    },
+    {
+        "id": "74061c0b-25a1-434a-b59f-c8ff877fc393",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T21: 45: 43.618Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T21: 45: 43.484Z",
+        "ended_at": ""
+    },
+    {
+        "id": "ff7d8a5a-5295-4461-96ff-4f6a45f7fa3b",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T21: 45: 41.944Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T21: 45: 41.799Z",
+        "ended_at": ""
+    },
+    {
+        "id": "3eff6966-bb20-450b-becf-d345f1196c45",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T21: 45: 40.276Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T21: 45: 40.123Z",
+        "ended_at": ""
+    },
+    {
+        "id": "494c4349-e02a-49ac-b5dd-2eaaf5f59d4a",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2024-01-16T13: 48: 17.412Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2024-01-16T13: 48: 17.227Z",
+        "ended_at": ""
+    },
+    {
+        "id": "e797a070-f01e-4da3-92ab-ed5424a33403",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2023-12-21T16: 19: 19.274Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2023-12-21T16: 19: 19.120Z",
+        "ended_at": ""
+    },
+    {
+        "id": "7649d09f-5617-4247-8069-7df422792afd",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2023-12-04T15: 38: 06.336Z",
+        "started_by": {
+            "type": "api",
+            "details": ""
+        },
+        "created_at": "2023-12-04T15: 38: 06.192Z",
+        "ended_at": ""
+    },
+    {
+        "id": "650141cb-432f-4a8e-a3d5-124e137fba67",
+        "state": "unresolved",
+        "process": {
+            "id": "aa2f58d0-8dad-48cc-84a7-cbe4788e8f97",
+            "name": "Work Data Management"
+        },
+        "duration": 0,
+        "started_at": "2023-12-04T16: 52: 19.431Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-12-04T16: 52: 19.294Z",
+        "ended_at": ""
+    },
+    {
+        "id": "4a9a7707-3742-4fe8-b589-2b7263d534b6",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 73,
+        "started_at": "2024-01-16T21: 29: 26.751Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2024-01-16T21: 29: 26.574Z",
+        "ended_at": "2024-01-16T21: 30: 39.357Z"
+    },
+    {
+        "id": "3776cdda-eb0d-4038-903c-870ad40effb5",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 121,
+        "started_at": "2024-01-16T13: 54: 25.461Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2024-01-16T13: 54: 25.317Z",
+        "ended_at": "2024-01-16T13: 56: 25.944Z"
+    },
+    {
+        "id": "5d88df30-94ab-4607-8f40-60b924b771af",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 101,
+        "started_at": "2023-11-30T12: 19: 54.322Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-30T12: 19: 54.164Z",
+        "ended_at": "2023-11-30T12: 21: 34.366Z"
+    },
+    {
+        "id": "20f1a046-32f1-4509-b908-12dccb1faaf7",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 61,
+        "started_at": "2023-11-30T12: 18: 13.613Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-30T12: 18: 13.464Z",
+        "ended_at": "2023-11-30T12: 19: 14.255Z"
+    },
+    {
+        "id": "3e32b1db-6c95-4d04-a9ca-00df1f10ccd9",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 84,
+        "started_at": "2023-11-29T20: 41: 43.805Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-29T20: 41: 43.637Z",
+        "ended_at": "2023-11-29T20: 43: 07.543Z"
+    },
+    {
+        "id": "9d2ffce8-b9a6-43f6-86f7-3ee48a508581",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 67,
+        "started_at": "2023-11-29T20: 40: 11.820Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-29T20: 40: 11.679Z",
+        "ended_at": "2023-11-29T20: 41: 18.178Z"
+    },
+    {
+        "id": "2b84c64a-c34e-4445-b1a1-201cb3b6b587",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 81,
+        "started_at": "2023-11-21T15: 46: 35.918Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-21T15: 46: 35.792Z",
+        "ended_at": "2023-11-21T15: 47: 56.069Z"
+    },
+    {
+        "id": "bbff6ecb-be7d-4099-a01e-3ee0dca4f049",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 59,
+        "started_at": "2023-11-21T15: 44: 51.028Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-21T15: 44: 50.878Z",
+        "ended_at": "2023-11-21T15: 45: 49.948Z"
+    },
+    {
+        "id": "d072d6b4-86ac-4199-bb5b-fc9e3410c2cc",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 56,
+        "started_at": "2023-11-16T15: 37: 45.329Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-16T15: 37: 45.180Z",
+        "ended_at": "2023-11-16T15: 38: 41.052Z"
+    },
+    {
+        "id": "a70368be-2fe5-4afd-bd64-5433d1ff05d0",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 57,
+        "started_at": "2023-11-16T15: 23: 59.813Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-16T15: 23: 59.649Z",
+        "ended_at": "2023-11-16T15: 24: 56.357Z"
+    },
+    {
+        "id": "f357680c-6d2b-41de-8464-1d1caf9c0094",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 57,
+        "started_at": "2023-11-03T12: 39: 32.336Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-03T12: 39: 32.142Z",
+        "ended_at": "2023-11-03T12: 40: 28.882Z"
+    },
+    {
+        "id": "ed429521-aba5-4f0a-9afb-ce6562048a2c",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "Worker Group"
+        },
+        "duration": 76,
+        "started_at": "2023-11-03T11: 37: 17.596Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-03T11: 37: 17.454Z",
+        "ended_at": "2023-11-03T11: 38: 33.298Z"
+    },
+    {
+        "id": "ae5486df-c6b2-4147-a7d4-41a1161a405d",
+        "state": "completed",
+        "process": {
+            "id": "e3346e53-282a-4e7a-baba-21e5ef8656bd",
+            "name": "WDM"
+        },
+        "duration": 68,
+        "started_at": "2023-11-03T11: 32: 37.241Z",
+        "started_by": {
+            "type": "user",
+            "details": {
+                "id": "process-api-start-default",
+                "first_name": "Eric",
+                "last_name": "Hanson"
+            }
+        },
+        "created_at": "2023-11-03T11: 32: 37.120Z",
+        "ended_at": "2023-11-03T11: 33: 44.488Z"
+    }
+]
