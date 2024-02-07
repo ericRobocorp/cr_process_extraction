@@ -1,3 +1,7 @@
+"""
+This automation is uses Robocorp's APIs and Vault to download the run data for all the processes in the Workspace
+"""
+
 from robocorp.tasks import task, setup
 from robocorp import vault
 from pathlib import Path
@@ -11,6 +15,8 @@ APIKEY = None
 
 @setup
 def get_workspace_id(task):
+    # gets the workspace ID needed for the API
+    # gets API Key from Vault of the workspace to utilize the API
     global WKSPCID, APIKEY
     WKSPCID = os.getenv("RC_WORKSPACE_ID", None)
     secret = vault.get_secret("get_processes")
@@ -22,13 +28,13 @@ def minimal_task():
     process_list = list_all_processes()
     list_json = get_run_data(process_list)
     list_json = clean_up_process(list_json)
-    # list_json = normalize_date_time(list_json)
     create_csv(list_json)
     # use function below if you want to add the data to a Database
     # insert_to_database(list_json)
 
 
 def list_all_processes():
+    # gets all the Process IDs for the workspace
     process_url = f"https://cloud.robocorp.com/api/v1/workspaces/{WKSPCID}/processes"
     package = requests.request(
         "get",
@@ -42,6 +48,8 @@ def list_all_processes():
 
 
 def get_run_data(process_list):
+    # downloads all the runs for a Worksapce. Because of the way our API works each Process has to be queried twice,
+    # once for completed runs and once for unresolved runs
     combined_data = []
     for item in process_list:
         url = f"https://cloud.robocorp.com/api/v1/workspaces/{WKSPCID}/process-runs?process_id={item['id']}&state=completed"
@@ -65,6 +73,8 @@ def get_run_data(process_list):
             },
         )
         load_json = package.json()["data"]
+        # Unresolved process runs do not have the time ran, as a result a second function is called for each unresolved process run
+        # which gets all the step runs, totals the duration of the runs, then adds it to the duration for the process run
         add_durations = get_unresolved_minutes(load_json)
         combined_data.extend(add_durations)
 
@@ -72,6 +82,7 @@ def get_run_data(process_list):
 
 
 def clean_up_process(list_json):
+    # normalizes the data for better storage and readability
     for item in list_json:
         item["process_id"] = item["process"]["id"]
         item["process_name"] = item["process"]["name"]
@@ -90,22 +101,8 @@ def clean_up_process(list_json):
     return list_json
 
 
-def normalize_date_time(list_json):
-    for item in list_json:
-        item["started_at"] = datetime.strptime(
-            item["started_at"], "%Y-%m-%dT%H:%M:%S.%fZ"
-        )
-        item["created_at"] = datetime.strptime(
-            item["created_at"], "%Y-%m-%dT%H:%M:%S.%fZ"
-        )
-        if item["state"] != "unresolved":
-            item["ended_at"] = datetime.strptime(
-                item["ended_at"], "%Y-%m-%dT%H:%M:%S.%fZ"
-            )
-    return list_json
-
-
 def get_unresolved_minutes(runs):
+    # adds the duration of all the step runs in order to have the duration saved for each unresolved process run
     for run_id in runs:
         url = f"https://cloud.robocorp.com/api/v1/workspaces/{WKSPCID}/step-runs?process_run_id={run_id['id']}"
         package = requests.request(
@@ -122,6 +119,7 @@ def get_unresolved_minutes(runs):
 
 
 def create_csv(list_json):
+    # creates a CSV of all the data extracted
     output_dir = Path(os.environ.get("ROBOT_ARTIFACTS", "output"))
     csv_file_path = f"{output_dir}/combined.csv"
     with open(csv_file_path, mode="w", newline="") as csv_file:
@@ -132,6 +130,8 @@ def create_csv(list_json):
 
 
 def insert_to_database(list_json):
+    # This is an example of code you can use for storing the data in a database
+    # mysql is used in this example
     secrets = vault.get_secret("db_connect")
     db = Database()
     db.connect_to_database(
